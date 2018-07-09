@@ -1,6 +1,0 @@
-[all]
-[ubuntu-c]
-10.0.3.87 ansible_user=root
-
-[ubtuntu1]
-10.0.3.58

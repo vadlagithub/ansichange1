@@ -1,0 +1,51 @@
+# Every YAML file should start with three dashes
+---
+##### WATCH VIDEO AND ALL SECTIONS#####################
+
+#To test : ./show_yaml_python.yml 
+
+#this will be treated as DICT
+
+1example_key_1: this is a string
+2example_key_2: this is another string
+
+#This will be treated as DICT ignoring quotes
+
+3no_quotes: this is a string example
+4double_quotes: "this is a string example"
+5single_quotes: 'this is a string example'
+
+#This will add extra \ to escape another
+
+6no_quotes_esc: this is a string example\n
+7double_quotes_esc: "this is a string example\n"
+8single_quotes_esc: 'this is a string example\n'
+
+#This is Multiline String with pipe INCLUDES \n ESC quotes
+
+9example_key_1_pipe: |
+  this is a string
+  that goes over
+  multiple lines
+ 
+#This is Multiline is single line.
+
+example_key_1_greaterthan: >
+  this is a string
+  that goes over
+  multiple lines
+
+
+#This is Multiline is single line. STRIPS newline from EOL
+
+example_key_1_greaterthanminus: >-
+  this is a string
+  that goes over
+  multiple lines
+
+
+
+
+
+# Every YAML file should end with three dots
+...

@@ -13,4 +13,6 @@
         src: conf.d
         dest: sshd_config
 
+# To view O/P cmd: cat sshd_config; and when assemble to sshd_config , we will be able to use O/P direcltly by: ssh -F sshd_config centos1
+
 ...

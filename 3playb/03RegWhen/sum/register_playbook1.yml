@@ -20,7 +20,10 @@
     - name: Shows hostname_output STD
       debug:
         var: hostname_output.stdout
-
+    
+    - name: Shows hostname_output STD
+      debug:
+        var: hostname_output.start
 
 # Three dots indicate the end of a YAML document
 ...

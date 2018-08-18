@@ -16,7 +16,7 @@
       debug:
           msg:
 
-     # When ansible -m setup -a filter='ansible_distribution*'  :version is str in o/p, so INT 
+     # When ansible all -m setup -a filter='ansible_distribution*'  :version is str in o/p, so filter it to INT and use below
 
     - name: Exploring Register using when and INT type for version
       command: hostname -s

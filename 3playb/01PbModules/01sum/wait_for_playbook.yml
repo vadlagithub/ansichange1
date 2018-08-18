@@ -1,4 +1,9 @@
 ---
+
+# ansible-doc wait_for: for more info
+# Start and stop the nginx and try the playbook running in backgroung using & symbol after command:
+
+# ansible centos2 -m service -a "name=nginx state=stopped"
 -
 
   hosts: centos2,ubuntu2

@@ -22,9 +22,9 @@
       yum:
         name: patch
         state: present
-      when: command_register is changed
+      when: command_register | changed
 
-    - name: Install patch when skipped | so works on Ubuntu                                    
+    - name: Install patch when skipped , here dot or | dont work so use IS that works on Ubuntu                                    
       apt:
         name: patch
         state: present
